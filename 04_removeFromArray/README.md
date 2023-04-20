@@ -5,6 +5,24 @@ Implement a function that takes an array and some other arguments then removes t
 ```javascript
 removeFromArray([1, 2, 3, 4], 3); // should remove 3 and return [1,2,4]
 ```
+//initialize a new empty array
+let newArray = [];
+//repeat for each element of array
+for (i = 0; i < array.length; i++) {
+    array[i].pop();
+    if (array[i] = args) {
+        console.log(args);
+    } else {
+        newArray[i].push;
+    }
+}
+
+
+//take first element of array
+    //if = num dont add
+    //else add into the new array
+
+
 
 ## Hints
 
