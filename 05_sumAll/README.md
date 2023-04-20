@@ -5,8 +5,16 @@ Implement a function that takes 2 integers and returns the sum of every number b
 ```javascript
 sumAll(1, 4) // returns the sum of 1 + 2 + 3 + 4 which is 10
 ```
-
-
+ if(!(start > 0 || end > 0)){
+        return "ERROR";
+    }
+    if (start > end) {
+        let temp = 0;
+        temp = start;
+        start = end;
+        end = start;
+    }
+    
 ## Hints
 
 Think about how you would do this on pen and paper and then how you might translate that process into code:
